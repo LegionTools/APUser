@@ -1,8 +1,8 @@
 ## Interface: 70300
 ## Title: Artifact Power User
-## Notes: Кнопка на миникарте для использования предметов "Сила артефакта" - счётчик в сумках и суммарная сила, клик/Alt+колесо для использования.
-## Author: Colada
-## Version: 0.1.0
+## Notes: Make Artifact Great Again!
+## Author: Colada (Бообс-uwowx100)
+## Version: 1.0.0
 ## SavedVariables: APUserDB
 
 Core.lua
