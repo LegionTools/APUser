@@ -19,7 +19,6 @@ Drop the `APUser` folder into `Interface/AddOns/`.
 
 ## Known limitations
 
-- No custom minimap icon yet (plain scroll icon placeholder).
 - Russian and English tooltip keywords are recognized; other locales aren't.
 
 ---
@@ -45,5 +44,4 @@ Drop the `APUser` folder into `Interface/AddOns/`.
 
 ## Известные ограничения
 
-- Своей иконки на миникарте пока нет (временная заглушка — иконка свитка).
 - Распознаются русские и английские ключевые слова в тултипе, остальные локали — нет.
