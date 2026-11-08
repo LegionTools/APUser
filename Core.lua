@@ -352,6 +352,15 @@ end)
 UpdateButtonPosition()
 RefreshUseAttribute()
 
+-- Safety-net rescan: BAG_UPDATE should catch every bag change, but this
+-- periodic rescan covers any item that becomes/stops being usable without
+-- one firing (e.g. a cooldown or level-based restriction clearing).
+local RESCAN_INTERVAL = 10 -- seconds
+C_Timer.NewTicker(RESCAN_INTERVAL, function()
+	RefreshUseAttribute()
+	RefreshTooltipIfShown()
+end)
+
 -- ============================================================================
 -- Debug: /apdebug dumps, for every item currently detected as an Artifact
 -- Power item, its link, the amount+count computed, and every raw tooltip
